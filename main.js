@@ -1,2 +1,5 @@
-var a = document.getElementById("tip")
-a.innerText = "ahhhhhhh"
+var a = document.getElementById("input");
+var b = document.getElementById("tip");
+function tip(){
+    b.innerHTML=a.value;
+}
