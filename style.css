@@ -14,9 +14,8 @@ body {
     margin: 10px 0 0 0;
 }
 .status{
-    text-align: left;
     display: inline-block;
     width: 20%;
     padding: 10px;
-    margin: 5px 10% 5px 0;
+    margin: 5px 5% 5px 0;
 }
