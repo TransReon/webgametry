@@ -1,25 +1,22 @@
+body,html{
+    height: 100%;
+    width:100%;
+    margin:0 0 0 0;
+    overflow:hidden hidden;
+}
 body {
     text-align: center;
-}
-h1 {
-    color: #00ffdd;
     background-color: black;
 }
-title {
-    width: 50%;
+.statusbar{
+    border: solid 2px rgb(110, 36, 7);
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px 0 0 0;
 }
-p {
-    height: 20px;
-}
-.textinput{
-    width: 35%;
-    height: 35px;
-}
-.subbutton{
-    width: 5%;
-    height: 35px;
-    background-color: #00eeff;
-}
-div{
-    height: 200px;
+.status{
+    text-align: left;
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    margin: 5px 10% 5px 0;
 }
