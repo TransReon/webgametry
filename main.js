@@ -9,4 +9,4 @@ function updateStatus(){
     exptext.innerHTML = "经验： " + exp;
     recruittext.innerHTML = "英雄帖： " + recruit;
 }
-
+updateStatus();

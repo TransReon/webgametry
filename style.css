@@ -19,3 +19,23 @@ body {
     padding: 10px;
     margin: 5px 5% 5px 0;
 }
+.main{
+    width: 100%;
+    height: 85%;
+}
+.infobar{
+    float: left;
+    width: 25%;
+    height: 100%;
+    margin: 15px 5px 5px 20px;
+    border: solid 2px rgb(255, 239, 98);
+    border-radius: 10px 10px 10px 10px;
+}
+.battlebar{
+    float: right;
+    width: 70%;
+    height: 100%;
+    margin: 15px 20px 5px 5px;
+    border: solid 2px rgb(21, 33, 197);
+    border-radius: 10px 10px 10px 10px;
+}
