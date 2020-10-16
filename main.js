@@ -1,5 +1,7 @@
 var a = document.getElementById("input");
-var b = document.getElementById("tip");
+var b = document.getElementById("par");
 function tip(){
-    b.innerHTML=a.value;
+    var new = document.createElement("p");
+    new.innerHTML=a.value;
+    b.appendChild(new);
 }
