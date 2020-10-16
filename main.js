@@ -4,4 +4,5 @@ function tip(){
     var newElement = document.createElement("p");
     newElement.innerHTML=a.value;
     b.appendChild(newElement);
+    a.value="";
 }
