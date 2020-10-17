@@ -25,17 +25,44 @@ body {
 }
 .infobar{
     float: left;
+    position: relative;
     width: 25%;
     height: 100%;
-    margin: 15px 5px 5px 20px;
+    margin: 15px 0px 0px 20px;
     border: solid 2px rgb(255, 239, 98);
     border-radius: 10px 10px 10px 10px;
 }
 .battlebar{
-    float: right;
+    float: left;
+    position: relative;
     width: 70%;
     height: 100%;
-    margin: 15px 20px 5px 5px;
+    margin: 15px 0px 0px 20px;
     border: solid 2px rgb(21, 33, 197);
     border-radius: 10px 10px 10px 10px;
 }
+@media screen and (max-width: 1160px) {
+    .main{
+        text-align: center;
+        width: 100%;
+        height: 85%;
+    }
+    .infobar{
+        width: 96%;
+        height: 20%;
+        position: relative;
+        float: initial;
+        margin: 15px 2% 0 2%;
+        border: solid 2px rgb(255, 239, 98);
+        border-radius: 10px 10px 10px 10px;
+    }
+    .battlebar{
+        width: 96%;
+        height: 70%;
+        position: relative;
+        float: initial;
+        margin: 15px 2% 0 2%;
+        border: solid 2px rgb(21, 33, 197);
+        border-radius: 10px 10px 10px 10px;
+    }
+  }
