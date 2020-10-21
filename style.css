@@ -11,7 +11,7 @@ body {
 .statusbar{
     border: solid 2px rgb(110, 36, 7);
     border-radius: 10px 10px 10px 10px;
-    margin: 10px 0 0 0;
+    margin: 10px 5px 0 5px;
 }
 .status{
     display: inline-block;
@@ -49,7 +49,7 @@ body {
     }
     .infobar{
         width: 96%;
-        height: 20%;
+        height: 30%;
         position: relative;
         float: initial;
         margin: 15px 2% 0 2%;
@@ -58,7 +58,7 @@ body {
     }
     .battlebar{
         width: 96%;
-        height: 70%;
+        height: 65%;
         position: relative;
         float: initial;
         margin: 15px 2% 0 2%;
