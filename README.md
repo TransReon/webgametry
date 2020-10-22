@@ -1,2 +1,3 @@
 # webgametry
-a attempt to a web game
+一个网页游戏的尝试
+仅仅为了练习一下自己的编码能力

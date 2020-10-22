@@ -1,68 +1,16 @@
-body,html{
-    height: 100%;
-    width:100%;
-    margin:0 0 0 0;
-    overflow:hidden hidden;
+#body {
+  background-color: black;
 }
-body {
-    text-align: center;
-    background-color: black;
+#statusbar {
+  margin-top: 1%;
+  border: solid 2px rgb(110, 36, 7);
+  border-radius: 10px 10px 10px 10px;
 }
-.statusbar{
-    border: solid 2px rgb(110, 36, 7);
-    border-radius: 10px 10px 10px 10px;
-    margin: 10px 5px 0 5px;
+#infobar {
+  border: solid 2px rgb(255, 239, 98);
+  border-radius: 10px 10px 10px 10px;
 }
-.status{
-    display: inline-block;
-    width: 20%;
-    padding: 10px;
-    margin: 5px 5% 5px 0;
+#battlebar {
+  border: solid 2px rgb(21, 33, 197);
+  border-radius: 10px 10px 10px 10px;
 }
-.main{
-    width: 100%;
-    height: 85%;
-}
-.infobar{
-    float: left;
-    position: relative;
-    width: 25%;
-    height: 100%;
-    margin: 15px 0px 0px 20px;
-    border: solid 2px rgb(255, 239, 98);
-    border-radius: 10px 10px 10px 10px;
-}
-.battlebar{
-    float: left;
-    position: relative;
-    width: 70%;
-    height: 100%;
-    margin: 15px 0px 0px 20px;
-    border: solid 2px rgb(21, 33, 197);
-    border-radius: 10px 10px 10px 10px;
-}
-@media screen and (max-width: 1160px) {
-    .main{
-        text-align: center;
-        width: 100%;
-        height: 85%;
-    }
-    .infobar{
-        width: 96%;
-        height: 30%;
-        position: relative;
-        float: initial;
-        margin: 15px 2% 0 2%;
-        border: solid 2px rgb(255, 239, 98);
-        border-radius: 10px 10px 10px 10px;
-    }
-    .battlebar{
-        width: 96%;
-        height: 65%;
-        position: relative;
-        float: initial;
-        margin: 15px 2% 0 2%;
-        border: solid 2px rgb(21, 33, 197);
-        border-radius: 10px 10px 10px 10px;
-    }
-  }

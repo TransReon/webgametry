@@ -1,40 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
 
 <head>
-    <meta charset="utf-8" name="viewport"
-        content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>小游戏</title>
-    <link href="style.css" rel="stylesheet">
-    <script type="text/javascript">
-        var phoneWidth = parseInt(window.screen.width);
-        var phoneScale = phoneWidth / 640;
-        var ua = navigator.userAgent;
-        if (/Android (d+.d+)/.test(ua)) {
-            var version = parseFloat(RegExp.$1);
-            if (version > 2.3) { document.write('<meta name="viewport" content="width=640, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">'); }
-            else { document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">'); }
-        }
-        else { document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">'); }
-    </script>
+  <meta name="viewport" content="width=device-width, 
+                                     initial-scale=1.0, 
+                                     maximum-scale=1.0, 
+                                     user-scalable=no">
+  <title>小游戏</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 
-<body>
-    <div class="statusbar">
-        <p style="color: #fdff82;" class="status" id="gold">金币： 0</p>
-        <p style="color: chartreuse;" class="status" id="exp">经验： 0</p>
-        <p style="color: cyan;" class="status" id="recruit">英雄帖： 0</p>
-    </div>
-    <div class="main" id="screen">
-        <div class="battlebar">
-            
+<body id="body">
+  <div class="container">
+    <div class="row clearfix">
+      <div class="col-md-12 column">
+        <div class="row clearfix" id="statusbar">
+          <div class="col-md-4 column">
+            <p style="color: #fdff82;" class="status" id="gold">金币： 0</p>
+          </div>
+          <div class="col-md-4 column">
+            <p style="color: chartreuse;" class="status" id="exp">经验： 0</p>
+          </div>
+          <div class="col-md-4 column">
+            <p style="color: cyan;" class="status" id="recruit">英雄帖： 0</p>
+          </div>
         </div>
-        <div class="infobar">
-            <p>ah</p>
-        </div>
+      </div>
     </div>
+    <div class="row clearfix" id="screen">
+      <div class="col-md-8 column" id="battlebar">
+        <div class="row clearfix">
+          <div class="col-md-6 column">
+            <p>
+              <em>Git</em> 是一个分布式的版本控制系统，最初由 <strong>Linus Torvalds</strong>
+              编写，用作Linux内核代码的管理。在推出后，Git在其它项目中也取得了很大成功，尤其是在 <small>Ruby</small> 社区中。
+            </p>
+          </div>
+          <div class="col-md-6 column">
+            <p>
+              <em>Git</em> 是一个分布式的版本控制系统，最初由 <strong>Linus Torvalds</strong>
+              编写，用作Linux内核代码的管理。在推出后，Git在其它项目中也取得了很大成功，尤其是在 <small>Ruby</small> 社区中。
+            </p>
+          </div>
+        </div>
+        <hr align="center" width="100%" color="#ffffff">
+        <div class="row clearfix">
+          <div class="col-md-12 column">
+            <p>
+              <em>Git</em> 是一个分布式的版本控制系统，最初由 <strong>Linus Torvalds</strong>
+              编写，用作Linux内核代码的管理。在推出后，Git在其它项目中也取得了很大成功，尤其是在 <small>Ruby</small> 社区中。
+            </p>
+            <p>
+              <em>Git</em> 是一个分布式的版本控制系统，最初由 <strong>Linus Torvalds</strong>
+              编写，用作Linux内核代码的管理。在推出后，Git在其它项目中也取得了很大成功，尤其是在 <small>Ruby</small> 社区中。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 column" id="infobar">
+        <div class="btn-group">
+          <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-left"></em>
+            左</button> <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-center"></em>
+            中</button> <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-right"></em>
+            右</button> <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-justify"></em>
+            全</button>
+        </div>
+        <hr align="center" width="100%" color="#ffffff">
+        <div class="row clearfix">
+          <div class="col-md-12 column">
+            <p>
+              <em>Git</em> 是一个分布式的版本控制系统，最初由 <strong>Linus Torvalds</strong>
+              编写，用作Linux内核代码的管理。在推出后，Git在其它项目中也取得了很大成功，尤其是在 <small>Ruby</small> 社区中。
+            </p>
+          </div>
+        </div> 
+        <hr align="center" width="100%" color="#ffffff">
+        <button type="button" class="btn btn-default">按钮</button> <button type="button"
+          class="btn btn-default">按钮</button> <button type="button" class="btn btn-default">按钮</button>
+      </div>
+    </div>
+  </div>
 
-    <script src="main.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
